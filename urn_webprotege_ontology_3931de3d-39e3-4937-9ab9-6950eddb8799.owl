@@ -1,0 +1,1235 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:3931de3d-39e3-4937-9ab9-6950eddb8799#"
+     xml:base="urn:webprotege:ontology:3931de3d-39e3-4937-9ab9-6950eddb8799"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:3931de3d-39e3-4937-9ab9-6950eddb8799"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R28bts9Y8LWsZodUUxvZPJ -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R28bts9Y8LWsZodUUxvZPJ">
+        <rdfs:label xml:lang="en">hasDietType</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCNPHlYolzYDN6quqM0cLOd -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCNPHlYolzYDN6quqM0cLOd">
+        <rdfs:label xml:lang="en">hasMainCorse</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCn16V6zUZzXywnT6RDhiVT -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCn16V6zUZzXywnT6RDhiVT">
+        <rdfs:label xml:lang="en">dietType</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD1AXFK7OWkDNtAK9N3KeQ7 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RD1AXFK7OWkDNtAK9N3KeQ7">
+        <rdfs:label xml:lang="en">hasCuisine</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ">
+        <rdfs:label xml:lang="en">hasIngredient</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R759od2V2YRWbQ0mP1Mf3Ic -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R759od2V2YRWbQ0mP1Mf3Ic">
+        <rdfs:label xml:lang="en">isVegetarianByDefault</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBpa6v1wtf3KxErhQTDjlP3 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBpa6v1wtf3KxErhQTDjlP3">
+        <rdfs:label xml:lang="en">canBeVegetarian</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R1zoevlkhkuTWN40FtUAsY -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R1zoevlkhkuTWN40FtUAsY">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDL06gecLvkBkhDJc4c6sOJ"/>
+        <dc:description xml:lang="en">culinary traditions of Japan</dc:description>
+        <rdfs:label xml:lang="en">japaneseCusine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R79dv6BB9FkoGkkUjZDWFYy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R79dv6BB9FkoGkkUjZDWFYy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8P5dqDnPPxqJL7qgqJfmyS"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dairy product</dc:description>
+        <rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q34172"/>
+        <rdfs:label xml:lang="en">butter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7IjCJY3eUz2301hwU3ZxVI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7IjCJY3eUz2301hwU3ZxVI">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7sgdIEaS5TLylFS1Zocuar"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RD1AXFK7OWkDNtAK9N3KeQ7"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R1zoevlkhkuTWN40FtUAsY"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7Nfv37611liYUVnOzX9dwq"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8WOoQe9W2p7yozEuWm0oe4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R759od2V2YRWbQ0mP1Mf3Ic"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBpa6v1wtf3KxErhQTDjlP3"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="en">Japanese dish of battered deep-fried fish or vegetables</dc:description>
+        <rdfs:label xml:lang="en">tempura</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7Nfv37611liYUVnOzX9dwq -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7Nfv37611liYUVnOzX9dwq">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDwiaRz1cb9LHkLQTfwELE1"/>
+        <dc:description xml:lang="en">culinary ingredient, type of vegetable</dc:description>
+        <rdfs:label xml:lang="en">onion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7PfkTkG1PjFHIsw20eXXFU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7PfkTkG1PjFHIsw20eXXFU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Regwvzs0HlLLG0gTGwu4b9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RD1AXFK7OWkDNtAK9N3KeQ7"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R1zoevlkhkuTWN40FtUAsY"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8qVDu23y2equqJnZswjGm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBxSGv5KqTF1g2GMpvPgtSH"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R759od2V2YRWbQ0mP1Mf3Ic"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBpa6v1wtf3KxErhQTDjlP3"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="en">Japanese dish of deep-fried pork</dc:description>
+        <rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q1142841"/>
+        <rdfs:label xml:lang="en">tonkatsu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7mC9SikfOq2OjX9xQVODCQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7mC9SikfOq2OjX9xQVODCQ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Regwvzs0HlLLG0gTGwu4b9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R28bts9Y8LWsZodUUxvZPJ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8IZxZyhveiGsna5W38CEZZ"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RD1AXFK7OWkDNtAK9N3KeQ7"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCFcMS4Q718qXLqDS9rMBPc"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R79dv6BB9FkoGkkUjZDWFYy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8llQf9V6IbAbKop8pvesj3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R759od2V2YRWbQ0mP1Mf3Ic"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italian rice dish</dc:description>
+        <rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q208105"/>
+        <rdfs:label xml:lang="en">risotto</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7sgdIEaS5TLylFS1Zocuar -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7sgdIEaS5TLylFS1Zocuar">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R90lLY6eFLiPQECLjVIOClP"/>
+        <rdfs:label xml:lang="en">starter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R84s9h9th4rMA6Y6CwTk2eg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R84s9h9th4rMA6Y6CwTk2eg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCe94ryNp0Ilaj7zUF8SgnA"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R28bts9Y8LWsZodUUxvZPJ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8IZxZyhveiGsna5W38CEZZ"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RD1AXFK7OWkDNtAK9N3KeQ7"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/REiyr1NJZ9d4jtcr2ZoZxZ"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R79dv6BB9FkoGkkUjZDWFYy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RUcxvG9B5U5Y3Gm8BYtMoH"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R759od2V2YRWbQ0mP1Mf3Ic"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="en">Brazilian chocolate truffle</dc:description>
+        <rdfs:label xml:lang="en">brigadeiro</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R86Phv5xte15zc9z2uEfbmA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R86Phv5xte15zc9z2uEfbmA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCe94ryNp0Ilaj7zUF8SgnA"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R28bts9Y8LWsZodUUxvZPJ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBRs6NPlM2OxEDV512lJIWc"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RD1AXFK7OWkDNtAK9N3KeQ7"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R1zoevlkhkuTWN40FtUAsY"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9rZhflBJQF0q6jujkG8Ail"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R759od2V2YRWbQ0mP1Mf3Ic"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="en">baked red bean cake in Japan</dc:description>
+        <rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q1051482"/>
+        <rdfs:label xml:lang="en">dorayaki</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8CYBYER164pUjbC5Ksat53 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8CYBYER164pUjbC5Ksat53">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9IJ1inh5DbSrFIBea5mk4U"/>
+        <rdfs:label xml:lang="en">meat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8Hhv3gi2RvcViqHCBqwv5Y -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8Hhv3gi2RvcViqHCBqwv5Y">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCe94ryNp0Ilaj7zUF8SgnA"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RD1AXFK7OWkDNtAK9N3KeQ7"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8nWwfIIoKWPYmfWnUqfOPn"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RD1AXFK7OWkDNtAK9N3KeQ7"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/REiyr1NJZ9d4jtcr2ZoZxZ"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBmIsyqpL3WQ8sRMbOcDw0d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RUcxvG9B5U5Y3Gm8BYtMoH"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R759od2V2YRWbQ0mP1Mf3Ic"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="en">Brazilian layered cake</dc:description>
+        <rdfs:label xml:lang="en">pavê</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8IZxZyhveiGsna5W38CEZZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8IZxZyhveiGsna5W38CEZZ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCM91ltIHmq2Hi48neP7l42"/>
+        <dc:description xml:lang="en">vegetarian diet that includes dairy products</dc:description>
+        <rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q3496076"/>
+        <rdfs:label xml:lang="en">lactoVegetarian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8P5dqDnPPxqJL7qgqJfmyS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8P5dqDnPPxqJL7qgqJfmyS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9IJ1inh5DbSrFIBea5mk4U"/>
+        <dc:description xml:lang="en">food produced from or containing the milk of mammals</dc:description>
+        <rdfs:label xml:lang="en">dairy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8WOoQe9W2p7yozEuWm0oe4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8WOoQe9W2p7yozEuWm0oe4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8CYBYER164pUjbC5Ksat53"/>
+        <dc:description xml:lang="en">fish species used as food by humans</dc:description>
+        <rdfs:label xml:lang="en">fish</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8llQf9V6IbAbKop8pvesj3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8llQf9V6IbAbKop8pvesj3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDluDLBoO1QAx88n2mofHOq"/>
+        <dc:description xml:lang="pt-br">espécie de gramínea cultivada para alimento</dc:description>
+        <dc:description xml:lang="en">staple food grain of Oryza and Zizania species</dc:description>
+        <rdfs:label xml:lang="en">rice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8mgzxRrrppZbkDAuHYIjqc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8mgzxRrrppZbkDAuHYIjqc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8CYBYER164pUjbC5Ksat53"/>
+        <dc:description xml:lang="en">meat from cattle</dc:description>
+        <rdfs:label xml:lang="en">beef</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8nWwfIIoKWPYmfWnUqfOPn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8nWwfIIoKWPYmfWnUqfOPn">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCM91ltIHmq2Hi48neP7l42"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vegetarian diet that allows eating eggs and dairy products</dc:description>
+        <rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q3544800"/>
+        <rdfs:label xml:lang="en">lactoOvoVegetarian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8qVDu23y2equqJnZswjGm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8qVDu23y2equqJnZswjGm">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8CYBYER164pUjbC5Ksat53"/>
+        <dc:description xml:lang="en">meat from a pig</dc:description>
+        <rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q191768"/>
+        <rdfs:label xml:lang="en">pork</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8tHEn5IvGKJJrIXmHhzcu5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8tHEn5IvGKJJrIXmHhzcu5">
+        <dc:description xml:lang="en">any substance consumed to provide nutritional support for the body; form of energy stored in chemical</dc:description>
+        <dc:description xml:lang="pt-br">substancia utilizada pelos seres vivos</dc:description>
+        <rdfs:label xml:lang="en">foodDomain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R90lLY6eFLiPQECLjVIOClP -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R90lLY6eFLiPQECLjVIOClP">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8tHEn5IvGKJJrIXmHhzcu5"/>
+        <dc:description xml:lang="en">specific food preparation with cooking finished, and ready to eat, or be served</dc:description>
+        <rdfs:label xml:lang="en">dish</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9AUpfV3sGKUXUdXzyaL50z -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9AUpfV3sGKUXUdXzyaL50z">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8P5dqDnPPxqJL7qgqJfmyS"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milk produced by female cattle</dc:description>
+        <rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q10988133"/>
+        <rdfs:label xml:lang="en">milk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Ch9hjYjzrQFrry8gppiwn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9Ch9hjYjzrQFrry8gppiwn">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDwiaRz1cb9LHkLQTfwELE1"/>
+        <dc:description xml:lang="en">type of plant species with edible, often red, berry fruit</dc:description>
+        <rdfs:label xml:lang="en">tomato</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9IJ1inh5DbSrFIBea5mk4U -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9IJ1inh5DbSrFIBea5mk4U">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8tHEn5IvGKJJrIXmHhzcu5"/>
+        <rdfs:label xml:lang="en">ingredients</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9O1Xk3Y3Qcv7yttxvxIyXV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9O1Xk3Y3Qcv7yttxvxIyXV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Regwvzs0HlLLG0gTGwu4b9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RD1AXFK7OWkDNtAK9N3KeQ7"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/REiyr1NJZ9d4jtcr2ZoZxZ"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8mgzxRrrppZbkDAuHYIjqc"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCpHfK6fcZ50GB9pBX0Xzak"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R759od2V2YRWbQ0mP1Mf3Ic"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBpa6v1wtf3KxErhQTDjlP3"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">traditional Brazilian bean-based stew</dc:description>
+        <rdfs:label xml:lang="en">feijoada</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9bo4Aj8d8gSyU0SbeQupBx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9bo4Aj8d8gSyU0SbeQupBx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDluDLBoO1QAx88n2mofHOq"/>
+        <dc:description rdf:resource="https://www.wikidata.org/wiki/Q11006"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">species of plant in the Fabaceae family</dc:description>
+        <rdfs:label xml:lang="en">soybean</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9olGOIjOvbFRihteYen3Yy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9olGOIjOvbFRihteYen3Yy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Regwvzs0HlLLG0gTGwu4b9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RD1AXFK7OWkDNtAK9N3KeQ7"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R1zoevlkhkuTWN40FtUAsY"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8WOoQe9W2p7yozEuWm0oe4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8llQf9V6IbAbKop8pvesj3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBpU54HRdXqVsCVuqXkeG6C"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R759od2V2YRWbQ0mP1Mf3Ic"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBpa6v1wtf3KxErhQTDjlP3"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="en">portioned prepared vinegared rice topped or rolled with other ingredients</dc:description>
+        <rdfs:label xml:lang="en">sushi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9rZhflBJQF0q6jujkG8Ail -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9rZhflBJQF0q6jujkG8Ail">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDluDLBoO1QAx88n2mofHOq"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">powder made from the grinding of wheat used for human consumption</dc:description>
+        <rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q2249305"/>
+        <rdfs:label xml:lang="en">wheat flour</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB29V1RSM1GETDBccLLi3OV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB29V1RSM1GETDBccLLi3OV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCe94ryNp0Ilaj7zUF8SgnA"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R28bts9Y8LWsZodUUxvZPJ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCiJaQiQJa7EoxKlJjnBFv8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RD1AXFK7OWkDNtAK9N3KeQ7"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R1zoevlkhkuTWN40FtUAsY"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8llQf9V6IbAbKop8pvesj3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R759od2V2YRWbQ0mP1Mf3Ic"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Japanese rice cake made of mochigome</dc:description>
+        <rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q470519"/>
+        <rdfs:label xml:lang="en">mochi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBAGgOofUXFqzuupliGuRlZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBAGgOofUXFqzuupliGuRlZ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDwiaRz1cb9LHkLQTfwELE1"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">species of plant, herb</dc:description>
+        <rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q38859"/>
+        <rdfs:label xml:lang="en">basil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBREWvDy3sLwvAIqzHuq5vJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBREWvDy3sLwvAIqzHuq5vJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDwiaRz1cb9LHkLQTfwELE1"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">culinary ingredient (for the species use Q23400)</dc:description>
+        <rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q21546392"/>
+        <rdfs:label xml:lang="en">garlic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBRs6NPlM2OxEDV512lJIWc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBRs6NPlM2OxEDV512lJIWc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCM91ltIHmq2Hi48neP7l42"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type of vegetarianism which allows for the consumption of eggs</dc:description>
+        <rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q3543760"/>
+        <rdfs:label xml:lang="en">ovoVegetarian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBkXTqfmod9uO3gCY07elPq -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBkXTqfmod9uO3gCY07elPq">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Regwvzs0HlLLG0gTGwu4b9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RD1AXFK7OWkDNtAK9N3KeQ7"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/REiyr1NJZ9d4jtcr2ZoZxZ"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8WOoQe9W2p7yozEuWm0oe4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9Ch9hjYjzrQFrry8gppiwn"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R759od2V2YRWbQ0mP1Mf3Ic"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBpa6v1wtf3KxErhQTDjlP3"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brazilian dish</dc:description>
+        <rdfs:label xml:lang="en">moqueca</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBmIsyqpL3WQ8sRMbOcDw0d -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBmIsyqpL3WQ8sRMbOcDw0d">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8P5dqDnPPxqJL7qgqJfmyS"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fatty dairy product</dc:description>
+        <rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q13228"/>
+        <rdfs:label xml:lang="en">cream</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBpU54HRdXqVsCVuqXkeG6C -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBpU54HRdXqVsCVuqXkeG6C">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDwiaRz1cb9LHkLQTfwELE1"/>
+        <dc:description xml:lang="en">various types of marine algae</dc:description>
+        <rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q237169"/>
+        <rdfs:label xml:lang="en">seaweed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBxSGv5KqTF1g2GMpvPgtSH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBxSGv5KqTF1g2GMpvPgtSH">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDluDLBoO1QAx88n2mofHOq"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9rZhflBJQF0q6jujkG8Ail"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R759od2V2YRWbQ0mP1Mf3Ic"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">baked food made of flour, water and other ingredients</dc:description>
+        <rdfs:isDefinedBy rdf:resource="http://wikidata.org/wiki/Q7802"/>
+        <rdfs:label xml:lang="en">bread</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC76uvZe368a8c401TkYwFA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC76uvZe368a8c401TkYwFA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7sgdIEaS5TLylFS1Zocuar"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RD1AXFK7OWkDNtAK9N3KeQ7"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R1zoevlkhkuTWN40FtUAsY"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7Nfv37611liYUVnOzX9dwq"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8qVDu23y2equqJnZswjGm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R759od2V2YRWbQ0mP1Mf3Ic"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBpa6v1wtf3KxErhQTDjlP3"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="en">Japanese-Chinese dumplings</dc:description>
+        <rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q107014807"/>
+        <rdfs:label xml:lang="en">gyoza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCFcMS4Q718qXLqDS9rMBPc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCFcMS4Q718qXLqDS9rMBPc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDL06gecLvkBkhDJc4c6sOJ"/>
+        <dc:description xml:lang="en">culinary traditions of Italy</dc:description>
+        <rdfs:label xml:lang="en">italianCusine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCIDxvwcABfJmK4Qk08p9pz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCIDxvwcABfJmK4Qk08p9pz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8CYBYER164pUjbC5Ksat53"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">domesticated bird kept by humans primarily as a food source</dc:description>
+        <rdfs:label xml:lang="en">chicken</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCM91ltIHmq2Hi48neP7l42 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCM91ltIHmq2Hi48neP7l42">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8tHEn5IvGKJJrIXmHhzcu5"/>
+        <rdfs:label xml:lang="en">dietType</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCaOQQlNxHgkSWzH9vzCIxG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCaOQQlNxHgkSWzH9vzCIxG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7sgdIEaS5TLylFS1Zocuar"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R28bts9Y8LWsZodUUxvZPJ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8nWwfIIoKWPYmfWnUqfOPn"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RD1AXFK7OWkDNtAK9N3KeQ7"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/REiyr1NJZ9d4jtcr2ZoZxZ"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDC1vETSfuL6Fv1NXkOAyXQ"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R759od2V2YRWbQ0mP1Mf3Ic"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">small, baked, cheese-flavored roll</dc:description>
+        <rdfs:label xml:lang="en">pãoDeQueijo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCe94ryNp0Ilaj7zUF8SgnA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCe94ryNp0Ilaj7zUF8SgnA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R90lLY6eFLiPQECLjVIOClP"/>
+        <rdfs:label xml:lang="en">dessert</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCiJaQiQJa7EoxKlJjnBFv8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCiJaQiQJa7EoxKlJjnBFv8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCM91ltIHmq2Hi48neP7l42"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food not including meat and animal tissue products</dc:description>
+        <rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q638022"/>
+        <rdfs:label xml:lang="en">vegetarian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCpHfK6fcZ50GB9pBX0Xzak -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCpHfK6fcZ50GB9pBX0Xzak">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDluDLBoO1QAx88n2mofHOq"/>
+        <dc:description xml:lang="en">seed of one of several genera of the flowering plant family Fabaceae, which are used for human or animal food</dc:description>
+        <rdfs:label xml:lang="en">bean</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDC1vETSfuL6Fv1NXkOAyXQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDC1vETSfuL6Fv1NXkOAyXQ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8P5dqDnPPxqJL7qgqJfmyS"/>
+        <dc:description xml:lang="en">yellow or white, creamy or solid food made from the pressed curds of milk</dc:description>
+        <rdfs:label xml:lang="en">cheese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDJ7Unriyju0cOxrrMqfCyO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDJ7Unriyju0cOxrrMqfCyO">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7sgdIEaS5TLylFS1Zocuar"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R28bts9Y8LWsZodUUxvZPJ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCiJaQiQJa7EoxKlJjnBFv8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RD1AXFK7OWkDNtAK9N3KeQ7"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCFcMS4Q718qXLqDS9rMBPc"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9Ch9hjYjzrQFrry8gppiwn"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDC1vETSfuL6Fv1NXkOAyXQ"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R759od2V2YRWbQ0mP1Mf3Ic"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="en">Italian salad made of sliced fresh mozzarella, tomatoes, and sweet basil</dc:description>
+        <rdfs:label xml:lang="en">capreseSalad</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDL06gecLvkBkhDJc4c6sOJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDL06gecLvkBkhDJc4c6sOJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8tHEn5IvGKJJrIXmHhzcu5"/>
+        <rdfs:label xml:lang="en">cuisineType</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDbA8wfgLIEF68MNsFVdeGG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDbA8wfgLIEF68MNsFVdeGG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Regwvzs0HlLLG0gTGwu4b9"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RD1AXFK7OWkDNtAK9N3KeQ7"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCFcMS4Q718qXLqDS9rMBPc"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBmIsyqpL3WQ8sRMbOcDw0d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDC1vETSfuL6Fv1NXkOAyXQ"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R759od2V2YRWbQ0mP1Mf3Ic"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBpa6v1wtf3KxErhQTDjlP3"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="en">layered pasta dish</dc:description>
+        <rdfs:label xml:lang="en">lasagna</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDdbfqzBxI9WDxBGX1AYMIs -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDdbfqzBxI9WDxBGX1AYMIs">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7sgdIEaS5TLylFS1Zocuar"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RD1AXFK7OWkDNtAK9N3KeQ7"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/REiyr1NJZ9d4jtcr2ZoZxZ"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9rZhflBJQF0q6jujkG8Ail"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCIDxvwcABfJmK4Qk08p9pz"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R759od2V2YRWbQ0mP1Mf3Ic"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBpa6v1wtf3KxErhQTDjlP3"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="en">popular food in Brazil</dc:description>
+        <rdfs:label xml:lang="en">coxinha</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDe5mNqyBUIjyqhw9IKqrkO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDe5mNqyBUIjyqhw9IKqrkO">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCe94ryNp0Ilaj7zUF8SgnA"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R28bts9Y8LWsZodUUxvZPJ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8nWwfIIoKWPYmfWnUqfOPn"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RD1AXFK7OWkDNtAK9N3KeQ7"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCFcMS4Q718qXLqDS9rMBPc"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RUcxvG9B5U5Y3Gm8BYtMoH"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R759od2V2YRWbQ0mP1Mf3Ic"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="en">Italian dessert</dc:description>
+        <rdfs:label xml:lang="en">tiramisu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDluDLBoO1QAx88n2mofHOq -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDluDLBoO1QAx88n2mofHOq">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9IJ1inh5DbSrFIBea5mk4U"/>
+        <dc:description xml:lang="en">food that is eaten routinely, and considered a dominant portion of a standard diet</dc:description>
+        <rdfs:label xml:lang="en">stapleFood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDwiaRz1cb9LHkLQTfwELE1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDwiaRz1cb9LHkLQTfwELE1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9IJ1inh5DbSrFIBea5mk4U"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">edible plant or part of a plant, involved in cooking</dc:description>
+        <rdfs:label xml:lang="en">vegetable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/REiyr1NJZ9d4jtcr2ZoZxZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/REiyr1NJZ9d4jtcr2ZoZxZ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDL06gecLvkBkhDJc4c6sOJ"/>
+        <dc:description xml:lang="en">culinary traditions of Brazil</dc:description>
+        <rdfs:label xml:lang="en">brazilianCusine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RUcxvG9B5U5Y3Gm8BYtMoH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RUcxvG9B5U5Y3Gm8BYtMoH">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8P5dqDnPPxqJL7qgqJfmyS"/>
+        <dc:description xml:lang="en">nutritionally dense or sweet food product from the seed of Theobroma cacao - cocoa bean</dc:description>
+        <rdfs:label xml:lang="en">chocolate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rbgps1ofKC0mmXfqromGKV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rbgps1ofKC0mmXfqromGKV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7sgdIEaS5TLylFS1Zocuar"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R28bts9Y8LWsZodUUxvZPJ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8IZxZyhveiGsna5W38CEZZ"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RD1AXFK7OWkDNtAK9N3KeQ7"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCFcMS4Q718qXLqDS9rMBPc"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9Ch9hjYjzrQFrry8gppiwn"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBxSGv5KqTF1g2GMpvPgtSH"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDC1vETSfuL6Fv1NXkOAyXQ"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R759od2V2YRWbQ0mP1Mf3Ic"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italian dish</dc:description>
+        <rdfs:label xml:lang="en">bruschetta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Regwvzs0HlLLG0gTGwu4b9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Regwvzs0HlLLG0gTGwu4b9">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R90lLY6eFLiPQECLjVIOClP"/>
+        <rdfs:label xml:lang="en">mainCourse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RqoaYo0jH2dFQoHXRiPXC4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RqoaYo0jH2dFQoHXRiPXC4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCe94ryNp0Ilaj7zUF8SgnA"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R28bts9Y8LWsZodUUxvZPJ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8IZxZyhveiGsna5W38CEZZ"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RD1AXFK7OWkDNtAK9N3KeQ7"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCFcMS4Q718qXLqDS9rMBPc"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9rZhflBJQF0q6jujkG8Ail"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RYrBQoOhwhgjMIbdxWH1iQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDC1vETSfuL6Fv1NXkOAyXQ"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R759od2V2YRWbQ0mP1Mf3Ic"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="en">Sicilian pastry</dc:description>
+        <rdfs:label xml:lang="en">cannoli</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
