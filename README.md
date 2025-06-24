@@ -33,21 +33,6 @@ Indica se o prato pode ser adaptado para versão vegetariana:
 
 obs: foi considerado vegetariano nesse caso receitas sem carne.
 
-## 🌱 Exemplo
+## 🌱 Exemplo de grafo
+![image](https://github.com/user-attachments/assets/497192be-a8c9-4c36-b3c9-97b57b485a96)
 
-```
-:brigadeiro a :Dessert ;
-    rdfs:label "brigadeiro" ;
-    :hasCuisine :brazilianCuisine ;
-    :isVegetarianByDefault true ;
-    :hasIngredient :chocolate ;
-    :hasDietType "lactoVegetarian" .
-
-:lasagna a :MainCourse ;
-    rdfs:label "lasagna" ;
-    :hasCuisine :italianCuisine ;
-    :isVegetarianByDefault false ;
-    :canBeVegetarian true ;
-    :hasIngredient :cheese, :tomato ;
-    
-```
